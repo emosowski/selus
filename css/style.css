@@ -1,3 +1,29 @@
+ .text-vertical-center {
+    display: table-cell;
+    text-align: center;
+/*    vertical-align: middle;*/
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
  #main-bg
 {
 	width: 100%;
@@ -5,4 +31,48 @@
 	background: url('../images/Layer-5.png') no-repeat;
 	position: relative;
 }
+
+body {
+  font-family: 'Montserrat';
+}
+
+.text-vertical-center > h1 {
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  line-height: 1.458;
+  margin-top: 105px;
+  font-weight: normal;
+}
+
+.name {
+  color: rgb(42, 93, 163);
+}
+
+
+.clear-button {
+  font-size: 14px;
+  font-weight: bold;
+  border-style: solid;
+  line-height: 2.5;
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: rgb(21, 59, 109);
+  background-color: Transparent;
+  width: 194px;
+  height: 54px;
+}
+
+.clear-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(21, 59, 109);
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
 
