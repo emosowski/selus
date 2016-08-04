@@ -4,6 +4,7 @@
 	height: 6000px;
 	background: url('../images/Layer-5.png') no-repeat;
 	position: relative;
+  z-index: 1;
 }
 
 body {
@@ -75,8 +76,34 @@ body {
   color: rgb(42, 94, 164)
 }
 
+.explore {
+  margin-top: 200px;
+  position: absolute;
 
+}
 
+.explore > img{
+    margin:5px;
+    z-index: 3;
+}
 
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#sound {
+  width: 100%;
+  height: 100%;
+  background: url('../images/sound-wave.png') no-repeat;
+  z-index: 2;
+  margin-top: 150px;
+}
 
 
