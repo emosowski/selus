@@ -1,31 +1,5 @@
- .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-/*    vertical-align: middle;*/
-}
 
-.text-vertical-center h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
-}
-
-
-.header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-
- #main-bg
-{
+#main-bg{
 	width: 100%;
 	height: 6000px;
 	background: url('../images/Layer-5.png') no-repeat;
@@ -68,8 +42,38 @@ body {
   transition: all 0.5s;
 }
 
+.logo {
+  margin-left: 100px;
+  margin-top: 60px;
+  width: 83px;
+  height: 67px;
+  display: inline-block;
+}
 
+.logo-title {
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.333;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: 10px;
+}
 
+.clear-toggle {
+  background-color: transparent;
+  color: rgb(42, 94, 164);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 70px;
+  margin-right: 100px;
+}
+
+.btn:hover.clear-toggle:hover {
+  color: rgb(42, 94, 164)
+}
 
 
 
