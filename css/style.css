@@ -75,8 +75,14 @@ body {
   color: rgb(42, 94, 164)
 }
 
+.explore {
+  margin-top: 200px;
+  position: absolute;
 
+}
 
-
+.explore > img{
+    margin:5px;
+}
 
 
