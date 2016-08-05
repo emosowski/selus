@@ -271,5 +271,16 @@ body {
 .line {
   opacity: 0.349;
   height: .5px;
-  color: rgb(21, 59, 109);
+  border-color: rgb(21, 59, 109);
 }
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgb(20, 57, 106);
+}
+
+
+
+
+
