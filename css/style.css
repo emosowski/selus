@@ -239,3 +239,13 @@ body {
   height: 709px;
   z-index: 71;
 }
+
+
+.reviews {
+  margin-top: 200px;
+}
+
+.carousel {
+  width: 1500px;
+  margin-left: -185px;
+}
