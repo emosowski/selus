@@ -219,3 +219,23 @@ body {
 .white {
   color: rgb(255, 255, 255);
 }
+
+.off-white {
+  color: rgb(102, 119, 142);
+}
+
+.multi-screens {
+  width: 700px;
+  margin-right: -150px;
+  margin-top: -150px;
+}
+
+.Graphic {
+  background-image: url("Graphic.png");
+  position: absolute;
+  left: 966px;
+  top: 3249px;
+  width: 1034px;
+  height: 709px;
+  z-index: 71;
+}
