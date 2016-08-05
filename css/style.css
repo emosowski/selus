@@ -215,3 +215,7 @@ body {
   font-weight: 200;
   padding-bottom: 30px;
 }
+
+.white {
+  color: rgb(255, 255, 255);
+}
